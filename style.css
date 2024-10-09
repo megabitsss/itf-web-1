@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+.nav-bar {
+    background-color: gray;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.nav-logo {
+    width: 600px;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(50%);
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.logo-div {
+    flex: 1;
+    height: 50%;
+
+}
+
+.logo-img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+}
+
+.content {
+    height: 1000px;
+    text-align: center;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: gray;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 20px;
+    color: white;
+}
+
+.content-img {
+    width: 50%;
+    height: 100%;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.naruto {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.content-heading {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.content-button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+}
